@@ -1,0 +1,202 @@
+/* ABOUT ME - BEGIN */
+
+/* Fondo general del área */
+main.col-9 {
+    background-color: #F4F7F9;
+    padding: 80px;
+}
+
+/* Nombre principal */
+.col-9 h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    color: #0A2647;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+/* Subtítulo */
+main.col-9 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #2C7A7B;
+    margin-bottom: 20px;
+}
+
+/* Barra lateral */
+aside {
+    background: linear-gradient(180deg, #023b3e, #0f939a);
+    color: #ffffff;
+    padding: 25px;
+    height: 100%;
+    border-radius: 12px;
+}
+
+/* Imagen */
+aside img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 3px solid #2C7A7B;
+}
+
+/* Títulos dentro del aside */
+aside h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #2C7A7B;
+    margin-bottom: 10px;
+}
+
+/* Texto general */
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #1E293B;
+    line-height: 1.6;
+}
+
+aside img {
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid #2C7A7B;
+    box-shadow: 0 8px 20px #71edf433;
+    transition: transform 0.3s ease;
+}
+
+aside img:hover {
+    transform: scale(1.05);
+}
+
+aside td {
+    word-break: break-word;
+    font-size: 12px;
+}
+
+.name-box {
+    background-color: #144272;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.name-box h1 {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.name-box h2 {
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    color: rgb(183, 228, 199);
+}
+
+section h3 {
+    border-bottom: 2px solid #2C7A7B;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    color: #0A2647;
+}
+.name-box {
+    background-color:#023b3e;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.name-box h1 {
+    margin: 0;
+}
+
+.name-box h2 {
+    margin: 5px 0 0 0;
+    font-weight: 600;
+    color: #B7E4C7;
+}
+
+body {
+    background-color: #F4F7F9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== LADO IZQUIERDO ===== */
+
+aside {
+    background-color: #023b3e;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+aside img {
+    border-radius: 50%;
+    border: 4px solid #2C7A7B;
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    color: #B7E4C7;
+}
+
+.email-text {
+    word-break: break-word;
+}
+
+aside a {
+    color: #B7E4C7;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+/* ===== BLOQUE NOMBRE ===== */
+
+.name-box {
+    background-color: #023b3e;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.name-box h1 {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+}
+
+.name-box h2 {
+    margin-top: 8px;
+    font-weight: 400;
+    color: #B7E4C7;
+}
+
+/* ===== TARJETAS ===== */
+
+.section-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.section-box h3 {
+    border-bottom: 2px solid #2C7A7B;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    color: #0A2647;
+}
+
+.section-box h5 {
+    color: #144272;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* ABOUT ME - END */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Ana Arce</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Bodoni+Moda:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">PORTAFOLIO</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#about">Sobre mí</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-contenido">
+                <div class="hero-texto">
+                    <h1 class="nombre">Ana arce</h1>
+                    <p class="profesion">Diseñadora Gráfica</p>
+                </div>
+                <div class="foto-perfil">
+                    <img src="img/ana.jpeg" alt="Ana Arce - Diseñadora Gráfica">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>
+                Me desarrollo en el ámbito fotográfico y en el diseño gráfico, 
+                enfocándome en áreas como el branding y el diseño de empaques. 
+                Busco crear propuestas visuales con una estética limpia, 
+                elegante y bien estructurada.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="grid">
+                <a href="projects/fotografia.html" class="card card-foto">
+                    <span>Fotografía</span>
+                </a>
+                <a href="projects/branding.html" class="card card-branding">
+                    <span>Branding</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctame</h2>
+            <p class="subtitulo-contacto">¿Tienes un proyecto en mente? Hablemos.</p>
+            
+            <form id="form-contact" class="contenedor-contacto">
+                <input type="text" name="from_name" placeholder="Tu nombre" required>
+                <input type="email" name="reply_to" placeholder="Tu correo" required>
+                <textarea name="message" placeholder="Escribe tu mensaje" required></textarea>
+                <button type="submit" class="btn-envio">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Ana arce | Portafolio</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/email.js"></script>
+
+</body>
+</html>
